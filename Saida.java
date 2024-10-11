@@ -6,6 +6,7 @@ public class Saida extends Contas{
 
 	
 	boolean continuar = true;
+	@SuppressWarnings("resource")
 	protected void ExecutarCalculos() {
 		Contas contas = new Contas();		
 		Scanner entrada = new Scanner(System.in);
